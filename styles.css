@@ -1,0 +1,41 @@
+/* Сброс отступов и высота страницы */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Расположение элементов */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Центрирование кнопки */
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Фиксированный подвал */
+footer {
+  width: 100%;
+  padding: 10px 0;
+}
+
+/* Стили текста подвала */
+.clFooter {
+  text-align: center;
+  color: gray;
+  margin: 0;
+}
+
+/* Стили кнопки (опционально) */
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  cursor: pointer;
+}
